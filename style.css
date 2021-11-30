@@ -1,6 +1,7 @@
 body{
     background: #D8D8D8;
     margin:0;
+
   
   }
   .logo{
@@ -13,25 +14,23 @@ body{
     
   }
   .nav-bar{
-    background:white;
+  background:white;
     
   }
   
-  ul{
-  list-style-type:none;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  place-content: space-between;
-  }
-  li{
-    color: black;
-  }
+
   .hero{
     padding: 5em 2em;
   }
-  p{
+  .introduction{
     font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
     
+  }
+  .subhead{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
   }
   h1{
     font-family: 
@@ -48,15 +47,256 @@ body{
   }
   .upcoming-events{
     background-color: black;
-    padding: 5em 2em;
+    padding: 3em 2em;
     
+  }
+  .follow-sm-header
+  {
+    padding: 2em 2em;
   }
   .bandtext{
     color:white;
   }
+  .follow-social-media{
+    
+padding: 5em 2em;
+  }
+  
+
+.Band-History-img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+iframe{display: block;margin-left: auto;margin-right: auto;width: 50%;margin-bottom: 40px;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.listen-button{
+  transition-duration: 0.4s;
+  background-color: white;
+  color: #DA3E3E;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 32px;
+  font-family: Lucida Sans Typewriter;
+  border: 5px solid#DA3E3E;
+}
+.listen-button:hover {
+  background-color: #DA3E3E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 32px;
+  font-family: Lucida Sans Typewriter;
+  border: 5px solid#DA3E3E;
+}
+
+.yt-button {
+  background-color: white; 
+  border: none;
+  color: #DA3E3E;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 32px;
+  font-family: Lucida Sans Typewriter;
+}
+  .ig-button {
+    background-color: white;
+    border: none;
+    color: #DA3E3E;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 32px;
+    font-family: Lucida Sans Typewriter
+  }
+  
+.hero-img{
+  width: 50%;
+}
+
+
+#hero .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.follow-social-media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: baseline;
+  
+}
+.follow-social-media-links{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 0px 0px 50px 0px;
+}
+.ig-icon{
+
+ width: 220px;
+  height:170px;
+  margin:0px 0px 0px 360px;
+}
+
+
+
+.yt-icon {
+
+  width: 250px;
+  height:200px;
+  margin:0px 10px 0px 160px;
+  }
+
+  
+
+* {box-sizing:border-box}
+.hero{
+  transition-duration: 0.4s;
+}
+.hero:hover{
+  background-color: grey;
+  
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
   @media only screen and (max-width: 700px){
   nav{
   display: none;
+  }
+  .hero-img{
+    display: none;
   }
   body{
     background: #D8D8D8;
@@ -64,13 +304,77 @@ body{
     text-align: center;
     
   }
-  }
-  
   ul{
-  list-style-type:none;
-  font-family: 'Times New Roman', Times, serif;
+    list-style-type:none;
+    font-family: 'Times New Roman', Times, serif;
+      
+    }
+    .Band-History-img{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 10px;
     
-  }
+    }
+    .follow-social-media{
+      display:none;
+    }
+
+    
+    .yt-button {
+      background-color: white;
+      border: none;
+      color: #DA3E3E;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      border-radius: 4px;
+      font-family: Lucida Sans Typewriter;
+      margin: 0px 0px 20px 0px;
+      width: 200px;
+      height: 40px;
+
+    }
+      .ig-button {
+        background-color: white;
+        border: none;
+        color: #DA3E3E;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        border-radius: 4px;
+        font-family: Lucida Sans Typewriter;
+        width: 200px;
+        height: 40px;
+      }
+      .follow-social-media-links{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0px 0px 50px 0px;
+        }
+      }
+
+    
+
+  
+
+
   
   
   

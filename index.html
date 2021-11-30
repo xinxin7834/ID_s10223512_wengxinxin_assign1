@@ -3,30 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>The Sam Willows</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
         <div class="nav-bar">
     
-          <a class="logo" href="#">THE SAM WILLOWS</a>
+          <a class="logo" href="index.html">THE SAM WILLOWS</a>
           <nav>
             
               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Band History</a></li>
-                  <li><a href="#">Upcoming Events</a></li>
-                  <li><a href="#">Links</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="band-history.html" >Band History</a></li>
+                  <li><a href="upcoming-events.html">Upcoming Events</a></li>
+                  <li><a href="follow-socialm.html">Links</a></li>
               </ul>
           </nav>
             
         </div>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
                 <div class="left-column">
                     <p class="subhead">We Are</p>
                     <h1>THE SAM WILLOWS.</h1>
-                    <a href="" class="primary-cta">listen now</a>
+                    <a href="https://open.spotify.com/artist/0mXXLFHmd5bUHxkzaC9ujw" class="listen-button">listen now</a>
 
                 </div>
                 <img src="https://s3-ap-southeast-1.amazonaws.com/hear65/articles/images/000/000/351/large/the-sam-willows-singapore-music.jpg?1559114679" class="hero-img" alt="Picture of the sam willows">
@@ -39,8 +39,38 @@
         <section class="Band-History-section">
             <div class="container">
                 <h2>BAND HISTORY</h2>
-                <img src="https://lh3.googleusercontent.com/proxy/hkeFROp9-cYG9S1HsTeii7rg5b-gjJycHoB6Bc0PEvUUMWiRCQjK_nKkLBU74YsvsMvEwpKMr6WrZJsl0I5lgZJKdqcGGjFUjqTMLQudUOKPAIZlI8EZ1bt2pvj9AcWWDwqPR1Pd8l1cTPTHhUgyNZ8RenMBipCeVdVy4d5jDSdojuyKKp8tQC1WYd66F9AqGcqfFw" class="Band-History-img" alt="picture of the sam willows">
-                <p >
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://www.filepicker.io/api/file/0lSE9VhS7uRHXgEuiiEB/convert?cache=true&crop=0%2C0%2C960%2C480&crop_first=true&quality=90&w=1920"class="Band-History-img" alt="picture of the sam willows">      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://www.8days.sg/image/11572306/16x9/1920/1080/eb15fb3063f456587875897ee1b9d92b/UZ/tsw.jpg"class="Band-History-img" alt="picture of the sam willows">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://teenage.com.sg/wp-content/uploads/2018/07/willows.jpeg"class="Band-History-img" alt="picture of the sam willows">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+                <p class="introduction">
                     The Sam Willows have come a long way since their formation in 2012 as indie-pop artists. They have released a self-titled EP in 2013 and a full album titled “Take Heart” in 2015, with the latter achieving the GOLD award status in Singapore. The Music Video for the title-track “Take Heart” has amassed over 1.6 million views on YouTube. Through the years, 
                     they have performed at internationally renowned stages like SXSW in Texas,MU:CON in South Korea, Ultra Music Festival in Singapore, Summer Sonic Festival in Tokyo and have even supported international artists such‘Little Mix’ as the opening act on the ‘Get Weird Tour’. 
                     They even held their own headline concert in Singapore to an audience of more than 3,000 fans.In 2017, The Sam Willows released an exclusive compilation album (consisting of 16 songs from their first EP, the ‘Take Heart’ album and lead single ‘Keep Me Jealous’ from their sophomore album) in Japan (marketed and distributed by Sony Music Japan), making them the first English performing band from Singapore in recent years to be released by a major international music label in Japan. In mid 2018, The Sam Willows travelled to Jakarta and performed to a 
@@ -50,30 +80,32 @@
             </div>
         </section>
         <section class="upcoming-events">
-            <video width="320" height="240" controls>
-                <source src="https://youtu.be/wBhvBfaj0C0" type="video/mp4">
-            </video>
             <h2 class="bandtext">WHAT'S NEXT</h2>
             <p class="bandtext">
                 Currently THE SAM WILLOWS are not performing. Stay tuned for future concerts.
             </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uYboAKoNdfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
         </section>
+        <h2 class="follow-sm-header">FOLLOW US ON SOCIAL MEDIA!</h2>
         <section class="follow-social-media">
-          <h2>FOLLOW US ON SOCIAL MEDIA!</h2>
-            <svg xmlns="http://www.w3.org/2000/svg" width="342.692" height="224.246" viewBox="0 0 342.692 224.246">
-                <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M336.581,39.587c-3.941-13.811-15.554-24.688-30.3-28.379C279.559,4.5,172.4,4.5,172.4,4.5S65.234,4.5,38.508,11.208C23.764,14.9,12.152,25.776,8.211,39.587,1.05,64.62,1.05,116.85,1.05,116.85s0,52.229,7.161,77.263c3.941,13.811,15.554,24.235,30.3,27.926,26.725,6.708,133.888,6.708,133.888,6.708s107.162,0,133.888-6.708c14.744-3.691,26.356-14.115,30.3-27.926,7.161-25.033,7.161-77.263,7.161-77.263s0-52.229-7.161-77.263ZM137.348,164.27V69.429l89.567,47.422L137.348,164.27Z" transform="translate(-1.05 -4.5)"/>
-            </svg>
-            <br>
-            <a href="https://www.youtube.com/channel/UCF0UFws-KSxUpuro0uFZXOA" class="youtube-cta">Click To Subscribe</a>
-            <br>
-            <svg xmlns="http://www.w3.org/2000/svg" width="236.38" height="224.246" viewBox="0 0 236.38 224.246">
-                <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M118.211,56.867c-33.539,0-60.591,25.67-60.591,57.494s27.053,57.494,60.591,57.494,60.591-25.67,60.591-57.494S151.75,56.867,118.211,56.867Zm0,94.872c-21.674,0-39.392-16.763-39.392-37.379s17.666-37.379,39.392-37.379S157.6,93.745,157.6,114.361,139.885,151.739,118.211,151.739Zm77.2-97.224c0,7.456-6.328,13.41-14.133,13.41-7.857,0-14.133-6-14.133-13.41s6.328-13.41,14.133-13.41S195.414,47.109,195.414,54.515Zm40.131,13.61c-.9-17.964-5.221-33.876-19.09-46.986C202.639,8.03,185.869,3.926,166.938,3.026c-19.512-1.051-77.994-1.051-97.505,0C50.554,3.876,33.784,7.98,19.915,21.09S1.775,50.112.825,68.075C-.282,86.59-.282,142.082.825,160.6c.9,17.964,5.221,33.876,19.09,46.986S50.5,224.8,69.432,225.7c19.512,1.051,77.994,1.051,97.505,0,18.932-.851,35.7-4.954,49.517-18.114,13.816-13.11,18.141-29.022,19.09-46.986,1.107-18.514,1.107-73.956,0-92.471ZM210.338,180.461a38.919,38.919,0,0,1-22.465,21.316c-15.557,5.854-52.47,4.5-69.662,4.5s-54.158,1.3-69.662-4.5a38.922,38.922,0,0,1-22.465-21.316c-6.17-14.761-4.746-49.788-4.746-66.1s-1.371-51.389,4.746-66.1A38.919,38.919,0,0,1,48.55,26.944c15.557-5.854,52.47-4.5,69.662-4.5s54.158-1.3,69.662,4.5A38.922,38.922,0,0,1,210.338,48.26c6.17,14.761,4.746,49.788,4.746,66.1S216.508,165.75,210.338,180.461Z" transform="translate(0.005 -2.238)"/>
-            </svg>
-            <br>
-            <a href="https://www.instagram.com/thesamwillows/" class="primary-cta">Click To Follow</a>
+          
+            <img src="https://th.bing.com/th/id/R.31df5c31e528181d5336ddb3f401e409?rik=u0pxioqUV7vE%2fQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fwhite-youtube-logo-transparent%2fwhite-youtube-logo-transparent-8.png&ehk=CJg7KRL9TmNhlxXEOSZKWs3TURNmRCzzrLe27IfnsI0%3d&risl=&pid=ImgRaw&r=0" class="yt-icon" alt="youtube icon">
+                
+            <img src="https://www.stanthonyshs.org/wp-content/uploads/2018/01/instagram-logo-black-transparent.png" class="ig-icon" alt="instagram icon"> 
 
+            <br>
+        </section>
+        <section class="follow-social-media-links">
+          
+            <a href="https://www.youtube.com/channel/UCF0UFws-KSxUpuro0uFZXOA" class="yt-button">Click To Subscribe</a>
+            
+            <a href="https://www.instagram.com/thesamwillows/" class="ig-button">Click To Follow</a>
 
         </section>
+
+
+        
     <script src="script.js"></script>
   </body>
   
